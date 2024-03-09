@@ -1,3 +1,3 @@
 library(shiny)
 
-runApp("app")
+runApp("app", port = 8000)

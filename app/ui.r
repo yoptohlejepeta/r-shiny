@@ -2,7 +2,8 @@ library(shiny)
 source("server.r")
 
 ui <- fluidPage(
-  titlePanel("Old Faithful Geyser Data"),
+  theme = "pico.css",
+  h1("Shiny test", align = "center"),
   sidebarLayout(
     sidebarPanel(
       sliderInput("bins",
