@@ -3,7 +3,7 @@ source("server.r")
 
 ui <- fluidPage(
   theme = "pico.css",
-  h1("Shiny test", align = "center"),
+  h1("Shiny test", align = "center", style = "font-size: 5em; padding: 0.5em;"),
   sidebarLayout(
     sidebarPanel(
       sliderInput("bins",
